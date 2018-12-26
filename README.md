@@ -4,6 +4,7 @@ This project is design to teach a quadcopter how to fly using Deep Reinforcement
 
 ### Files
 
+- Quadcopter_Project.ipynb: Jupyter notebook cointaining all steps.
 - Tasks.py: File where all tasks are defined.
 - ActorCritic.py: File containing the structure for actor's model and critic's model.
 - Helpers.py: File containing helper functions like "Replay" and "Ornstein-Uhlenbeck process".
