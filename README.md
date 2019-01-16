@@ -1,3 +1,6 @@
+![Parrot Drone](parrot-ar-drone.jpg)
+
+
 # Quadcopter-RL
 
 This project is design to teach a quadcopter how to fly using Deep Reinforcement Learning. I used an environment provided by www.udacity.com, included in "physics_sim.py", it doesn't provide a Virtual 3D environment but it also doesn't need any configuration. In case you want to see the drone on a 3D environment you can follow up the instructions at https://github.com/udacity/RL-Quadcopter. For this project I'll use a reinforcement learning algorithm called Deep Deterministic Policy Gradients (DDPG) using Tensorflow. I also used Ornstein-Uhlenbeck process to implement some "noise" to the output of the model, using it to help the agent exploring the environment. You can read more about it at https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process .
